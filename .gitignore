@@ -1,0 +1,6 @@
+data/
+checkpoints/
+__pycache__/
+datas/wiki_pinyin/
+outputs/
+lightning_logs/
