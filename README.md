@@ -21,4 +21,4 @@ You can modify some parameters in 'predict.sh' and run this file to predict:
 `bash predict.sh`
 
 ## Note
-more results of experiments will be put into this repository in one week.
+More results of experiments will be put into this repository in one week.
