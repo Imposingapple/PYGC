@@ -14,7 +14,8 @@ Download the SIGHAN and CSCD-IME dataset from Baidu Netdisk and unzip it as fold
 Link: https://pan.baidu.com/s/1F6gaQfcglwH5j61t3rN0vw Password：1ne9  
 ### 2. Pinyin LM checkpoints and Pretrained checkpoints 
 Download from Baidu Netdisk and unzip it as folder "PYGC/checkpoints/":  
-updata today!
+Link：https://pan.baidu.com/s/15Age7n73En0fWLO6mRw9MA 
+Password：bu4r 
 
 ## Finetuneing
 You can directly finetune the model using:  
