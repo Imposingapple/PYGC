@@ -29,7 +29,7 @@ CUDA_VISIBLE_DEVICES=1 python -u $REPO_PATH/finetune/train.py \
 --reload_dataloaders_every_n_epochs 1 \
 --precision 16 \
 --save_topk 5 \
---ckpt_path ./checkpoints/epoch=5-df=58.0766-cf=50.0467.ckpt \
+--ckpt_path ./checkpoints/pretrained_wiki.ckpt \
 
 sleep 1
 
