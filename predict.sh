@@ -6,8 +6,8 @@ VOCAB_PATH=/home/haoping/Projects/chinese_spell_checking/PYGC/datas
 DATA_DIR=/home/haoping/Projects/chinese_spell_checking/PYGC/data
 export PYTHONPATH="$PYTHONPATH:$REPO_PATH"
 
-ckpt_path=outputs/bs64epoch30/checkpoint/epoch=4-df=75.4683-cf=72.7922.ckpt
-OUTPUT_DIR=outputs/bs64epoch30/predict_4
+ckpt_path=outputs/finetuned/checkpoint/finetuned_checkpoint.ckpt
+OUTPUT_DIR=outputs/finetuned/predict
 mkdir -p $OUTPUT_DIR
 
 CUDA_VISIBLE_DEVICES=2 python -u finetune/predict.py \
