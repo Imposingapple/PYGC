@@ -22,7 +22,9 @@ You can directly finetune the model using:
 
 ## Inference
 We provide the SIGHAN inference checkpoint from Baidu Netdisk. Please download it and unzip it as folder "PYGC/outputs/finetuned/":    
-updata today!
+Link：
+https://pan.baidu.com/s/1-KNjIemHbgh2fCAcoK5C6Q 
+Password：nd0f  
 
 You can run this file to predict:  
 `bash predict.sh`
