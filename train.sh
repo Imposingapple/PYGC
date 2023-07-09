@@ -12,7 +12,10 @@ lr=5e-5
 bs=16
 accumulate_grad_batches=4
 epoch=30
-OUTPUT_DIR=$REPO_PATH/outputs/bs$((bs*accumulate_grad_batches))epoch${epoch}
+# sighan
+# OUTPUT_DIR=$REPO_PATH/outputs/sighan/bs$((bs*accumulate_grad_batches))epoch${epoch}
+# sighan-isolation
+OUTPUT_DIR=$REPO_PATH/outputs/sighan_isolation/bs$((bs*accumulate_grad_batches))epoch${epoch}  
 
 mkdir -p $OUTPUT_DIR
 CUDA_VISIBLE_DEVICES=1 python -u $REPO_PATH/finetune/train.py \

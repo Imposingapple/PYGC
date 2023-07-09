@@ -226,8 +226,8 @@ class CSCTask(pl.LightningModule):
         return {"df": results["sent-detect-f1"], "cf": results["sent-correct-f1"]}
 
     def train_dataloader(self) -> DataLoader:
-        name = "sighan/train_all"
-        # name = "sighan/train_all_isolation"
+        # name = "sighan/train_all"
+        name = "sighan/train_all_isolation"
         # name = "cscd-ime/cscd_trainset.json"
 
         # dataset的fields：input_ids, label_ids, det_labels, pinyin_input_ids, pinyin_label_ids, pinyin_det_labels

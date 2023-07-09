@@ -20,15 +20,13 @@ Password：bu4r
 ## Finetuneing
 You can directly finetune the model using:  
 `bash train.sh`  
+note: you should modify train_dataloader() function of finetune/train.py to specify the corresponding name.  
 
 ## Inference
 We provide the SIGHAN inference checkpoint from Baidu Netdisk. Please download it and unzip it as folder "PYGC/outputs/finetuned/":    
-Link：
-https://pan.baidu.com/s/1-KNjIemHbgh2fCAcoK5C6Q 
-Password：nd0f  
+Link：https://pan.baidu.com/s/1iXuSi1eIHjGV_UnlV8k4Jg 
+Password：ds53 
 
-You can run this file to predict:  
+You can run this file to predict SIGHAN or SIGHAN-Isolation performance:  
 `bash predict.sh`
 
-## Note
-More results of experiments will be put into this repository in one week.
