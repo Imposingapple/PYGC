@@ -1,5 +1,4 @@
 # PYGC: a PinYin Language Model Guided Correction Model for Chinese Spell Checking
-Data and source code for ICONIP2023 submission "PYGC: a PinYin Language Model Guided Correction Model for Chinese Spell Checking"  
 ![image](./architecture.png)
 
 ## Requirements
@@ -16,11 +15,6 @@ Link: https://pan.baidu.com/s/1F6gaQfcglwH5j61t3rN0vw Password：1ne9
 Download from Baidu Netdisk and unzip it as folder "PYGC/checkpoints/":  
 Link：https://pan.baidu.com/s/15Age7n73En0fWLO6mRw9MA 
 Password：bu4r 
-
-## Finetuneing
-You can directly finetune the model using:  
-`bash train.sh`  
-note: you should modify train_dataloader() function of finetune/train.py to specify the corresponding name.  
 
 ## Inference
 We provide the SIGHAN inference checkpoint from Baidu Netdisk. Please download it and unzip it as folder "PYGC/outputs/finetuned/":    
